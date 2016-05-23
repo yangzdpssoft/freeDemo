@@ -13,4 +13,10 @@ public class DemoController{
         return "YZ!";
     }
 
+    @RequestMapping("/tt")
+    @ResponseBody
+    String homett() {
+        return "YZ tt!";
+    }
+
 }
